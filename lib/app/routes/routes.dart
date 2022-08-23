@@ -4,5 +4,6 @@ class Routes {
   static const LOGIN = "/login";
 
   static const NO_INTERNET = "/noInternet";
+  static const blog = "/blog";
 
 }

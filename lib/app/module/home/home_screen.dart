@@ -1,3 +1,4 @@
+import 'package:agami24/app/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -37,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                     actions: [
                       IconButton(
                           onPressed: (){
-
+                            Get.toNamed(Routes.blog);
                           },
                           icon: const Icon(Icons.person_pin,color: Colors.black38,)
                       )
