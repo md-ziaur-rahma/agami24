@@ -26,7 +26,7 @@ class SplashController extends GetxController {
           MySharedPreference.userId = int.parse(userId);
           MySharedPreference.token = token!;
           var duration = const Duration(seconds: 2);
-          return Timer(duration, navigationPage); 
+          return Timer(duration, navigationPage);
         } else {
           MySharedPreference.userId = 0;
           MySharedPreference.token = "";
